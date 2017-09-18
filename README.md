@@ -1,6 +1,6 @@
 # Project
 
-Tensorflow implementation of Iterative Pruning, K-means Quantization, Dynamic Surgery Network, Incremental Network Quantization
+Tensorflow implementations of Iterative Pruning, K-means Quantization, Dynamic Surgery Network, Incremental Network Quantization
 
 Codes are implemented according to reference paper and codes.
 
@@ -16,35 +16,35 @@ densenet.py: essential DenseNet modified from https://github.com/LaurentMazare/d
 
 densenetfinaltest.py: inference of DenseNet
 
-Iterative Pruning
+## Iterative Pruning
 
 densenetfinalprune.py: produce masks & pruned weights
 
 dnet_prune.ipynb: re-training of Iterative Pruning
 
-K-means Quantization
+## K-means Quantization
 
 densenetfinalkmeans.py: produce masks & K-Qed weights
 
 dnet_kmeans.ipynb: re-training of codebooks after K-means Quantization
 
-Dynamic Surgery Network
+## Dynamic Surgery Network
 
 densenetfinalDNS.py: DNS
 
-Incremental Network Quantization
+## Incremental Network Quantization
 
 densenetfinalinq.py: produce masks & INQed weights
 
 dnet_INQ.ipynb: re-training of INQ
 
-Combinations:
+## Combinations:
 
 Pruning+INQ: INQPruning.ipynb
 
 Pruning+K-Q: KmeansPruning.ipynb
 
-Analysis&Experiments:
+## Analysis&Experiments:
 
 dnet_dns_analysis.ipynb
 
@@ -55,7 +55,7 @@ dnet_INQ-analysis.ipynb
 dnet_prune_analysis.ipynb
 
 
-References:
+## References:
 
 https://github.com/gstaff/tfzip/tree/master/tfzip
 
