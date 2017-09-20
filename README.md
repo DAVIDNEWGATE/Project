@@ -6,7 +6,7 @@ Codes are implemented according to reference paper and codes.
 
 Masks and modified weights are produced on Single Machine.
 
-Re-training process are conduced on Google Cloud
+Re-training process are conducted on Google Cloud
 
 All hyperparameters are set in config.py except DNS(to replicate its open-sourse code on Caffee)
 
