@@ -10,7 +10,7 @@ Re-training process are conducted on Google Cloud
 
 All hyperparameters are set in config.py except DNS(to replicate its open-sourse code on Caffee)
 
-All codes excepet Analysis&Experiments part are documented.
+All codes except Analysis&Experiments part are documented.
 
 densenet.py: essential DenseNet modified from https://github.com/LaurentMazare/deep-models/tree/master/densenet
 
