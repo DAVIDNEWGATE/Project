@@ -8,7 +8,7 @@ Masks and modified weights are produced on Single Machine.
 
 Re-training process are conducted on Google Cloud
 
-All hyperparameters are set in config.py except DNS(to replicate its open-sourse code on Caffee)
+All hyperparameters are set in config.py except DNS(to replicate its open-sourse code on Caffe)
 
 All codes except Analysis&Experiments part are documented.
 
